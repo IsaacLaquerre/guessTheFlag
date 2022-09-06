@@ -289,5 +289,5 @@ function setUpFlag(country) {
 function guess(guess) {
     if (guess === window.country.name.toLowerCase()) alert("Correct!");
     else alert("Wrong! The country was " + window.country.name);
-    onload();
+    onLoad();
 }
